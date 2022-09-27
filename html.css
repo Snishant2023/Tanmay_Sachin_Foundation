@@ -1,0 +1,382 @@
+:root {
+      --orange: #ffa500;
+}
+
+* {
+      Margin: 0;
+      Padding: 0;
+      font-family: 'PT Serif', serif;
+}
+
+.head {
+      position: absolute;
+      top: 60px;
+      left: 0;
+      right: 0;
+      background: #333;
+      z-index: 1000;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 6rem 10%;
+}
+
+
+.heading {
+      text-align: center;
+      padding: 9.5rem 0
+}
+
+.navvbar {
+      left: 10px;
+}
+
+.navvbar h1 {
+      color: white;
+      text-align: left;
+      padding: 0px 0px 20px;
+      font-size: 3.8rem;
+}
+
+.navvbar h3 {
+      color: white;
+      text-align: left;
+      font-size: 2.2 rem;
+      padding-bottom: 20px;
+}
+
+.navvbar p {
+      color: white;
+      padding: 2px;
+      font-size: 2rem;
+
+}
+
+.navvbar p span {
+      text-decoration: underline;
+      color: rgb(86, 158, 235);
+}
+
+
+.logo {
+      width: 36rem;
+      top: 26px;
+      right: 23rem;
+      position: absolute;
+      padding: 11px 16px;
+}
+
+.home {
+      height: 100px;
+      top: 23rem;
+      align-items: center;
+      justify-content: center;
+      z-index: 0;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+}
+
+.texts {
+      width: 21rem;
+      top: 32rem;
+      right: 10.5rem;
+      position: absolute;
+      padding: 4px 19px;
+      background-color: #e5e5e5;
+      border-radius: 20px;
+      box-shadow: rgb(255 106 0) 8px 7px 3px;
+}
+
+.texts h3 {
+      color: black;
+      text-align: center;
+      font-size: 4.5rem;
+      padding: 1px;
+}
+
+
+/*wat ull learn*/
+.bg {
+      height: 20rem;
+      width: 95rem;
+      padding-left: 12px;
+}
+
+
+.about {
+      background: url(pic/woman-2701154_1920.jpg) no-repeat left;
+      background-size: 66%;
+      height: 140%;
+      background-color: #f1f1f1;
+      overflow: hidden;
+      padding: 8rem 0;
+}
+
+.abt {
+      padding-top: 55rem;
+}
+
+.inner-section {
+      width: 45%;
+      float: right;
+      background-color: #fdfdfd;
+      padding: 75px;
+      box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.3);
+}
+
+.inner-section h1 {
+      margin-bottom: 30px;
+      font-size: 55px;
+      font-weight: 900;
+      color: #232d60;
+}
+
+.text {
+      font-size: 22px;
+      color: #232d60;
+      line-height: 30px;
+      text-align: justify;
+      margin-bottom: 40px;
+}
+
+.text {
+      list-style: none;
+}
+
+.text li::before {
+      content: "📌";
+      display: inline-block;
+      margin-right: 0.2rem;
+}
+
+/* Features*/
+.headings {
+      margin-bottom: 26px;
+      font-size: 60px;
+      font-weight: 900;
+      color: #232d60;
+      text-align: center;
+      padding-top: 8rem;
+}
+
+.subjects {
+      padding: 4rem 5%;
+}
+
+.img {
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+}
+
+.subjects .box-container {
+      display: -ms-grid;
+      display: grid;
+      -ms-grid-columns: (minmax(16rem, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+      gap: 2rem;
+}
+
+.subjects .box-container .box {
+      padding: 5px;
+      text-align: center;
+      border: 0.5rem solid #232d60;
+      background: #f0fdfa;
+      cursor: pointer;
+      border-radius: 10px;
+}
+
+.subjects .box-container .box:hover {
+      background: #232d60;
+}
+
+.subjects .box-container .box:hover h3 {
+      color: #fff;
+}
+
+.subjects .box-container .box:hover p {
+      color: #eee;
+}
+
+.subjects .box-container .box img {
+      height: 12rem;
+      margin-bottom: .8rem;
+}
+
+.subjects .box-container .box h3 {
+      font-size: 2.2rem;
+      text-transform: capitalize;
+      color: #444;
+      padding: .5rem 0;
+}
+
+.subjects .box-container .box p {
+      font-size: 2rem;
+      line-height: 3;
+      color: #777;
+}
+
+/*content*/
+.bd {
+      height: auto;
+      align-items: center;
+      margin-left: 30px;
+}
+
+table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 95%;
+
+}
+
+td,
+th {
+      border: 1px solid #dddddd;
+      text-align: center;
+      padding: 10px 75px;
+}
+
+tr:nth-child(even) {
+      background-color: #dddddd;
+}
+
+tr:hover {
+      background-color: #232d60;
+      color: white;
+}
+
+th {
+      text-align: left;
+      font-size: 20px;
+}
+
+td {
+      font-size: 17px;
+}
+
+.hr {
+      text-align: center;
+      font-size: 5rem;
+      padding: 15px;
+      color: #232d60;
+}
+
+.hr:hover {
+      background-color: white;
+      color: #232d60;
+}
+
+/* button*/
+.bn {
+      padding-left: 105rem;
+}
+
+.btt {
+      display: inline-block;
+      margin-top: 3rem;
+      padding: 1rem 5rem;
+      font-size: 2rem;
+      border: 0.1rem solid #232d60;
+      background: #232d60;
+      color: #fff;
+      cursor: pointer;
+      text-align: center;
+      text-transform: capitalize;
+      text-decoration: none;
+}
+
+.btt:hover {
+      background: #fff;
+      color: #232d60;
+      text-decoration: none;
+}
+
+.button {
+      padding-left: 65rem;
+}
+
+.bttn {
+      display: inline-block;
+      margin-top: 3rem;
+      padding: 1rem 8rem;
+      font-size: 2.8rem;
+      border: 0.1rem solid #232d60;
+      background: #232d60;
+      color: #fff;
+      cursor: pointer;
+      text-align: center;
+      text-transform: capitalize;
+      text-decoration: none;
+}
+
+.bttn:hover {
+      background: #fff;
+      color: #232d60;
+}
+
+/*Review*/
+
+.review {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+      padding-left: 100px;
+      padding-right: 100px;
+}
+
+.review .box {
+      border-radius: .5rem;
+      border: .1rem solid rgba(0, 0, 0, .1);
+      padding: 1rem;
+      flex: 1 1 30rem;
+}
+
+.review .box .student {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+}
+
+.review .box .student .student-info {
+      display: flex;
+      align-items: center;
+}
+
+.review .box .student i {
+      font-size: 5rem;
+      color: #138cde;
+      opacity: .5;
+}
+
+.review .box .student .student-info img {
+      border-radius: 50%;
+      object-fit: cover;
+      height: 7rem;
+      width: 7rem;
+      margin-right: 1.5rem;
+}
+
+.review .box .student .student-info h3 {
+      font-size: 2.5rem;
+      color: #333;
+}
+
+.review .box .student .student-info span {
+      font-size: 1.7rem;
+      color: var(--pink);
+}
+
+.review .box .text {
+      padding: 1rem 10px;
+      font-size: 1.8rem;
+      color: #443a3a;
+}
+
+
+
+
+

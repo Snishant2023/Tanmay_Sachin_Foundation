@@ -1,0 +1,50 @@
+:root {
+      --primary-color: #000839;
+      --primary-shades: #00020b;
+      --para-color: #9596a1;
+      --helper-color: #1264fa;
+      --white: rgb(255, 255, 255);
+      --bg-color: #ffffff;
+   }
+   html {
+      font-size: 62.5%;
+   }
+   body{
+       background-color: var(--bg-color);
+       
+   }
+   /* navbar */
+   .navbar.navbar-expand-md.navbar-dark.fixed-top.bg-light{
+      gap: 3.2rem;
+    
+     background-color: var(--bg-color);
+     border-bottom: 1px solid rgba(0, 0, 0, 0.396);
+   }
+  .navbar-brand.text-primary b{
+       font-size: 3rem;
+   }
+  .navbar-nav.mr-auto{
+         gap: 3.2rem;
+  }
+  .nav-link.text-primary{
+      font-size: 1.7rem;
+  }
+  
+   button.dropdown-item{
+      font-size: 1.4rem;
+   }
+
+   /*footer*/
+   footer{
+      padding: 3rem;
+      margin-bottom: 0;
+  }
+  h5.text-light{
+      font-size: 2rem;
+  }
+  li .text-muted{
+      font-size: 1.3rem;
+  }
+  small.d-block.mb-3.p-5.text-muted{
+      font-size: 1.7rem;
+  }

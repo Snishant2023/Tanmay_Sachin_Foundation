@@ -1,0 +1,95 @@
+body{
+      width: 124rem;
+}
+/* header section */
+.head {
+      top: 12rem;
+      width: 124rem;
+
+}
+
+.logo {
+      width: 27rem;
+      top: 54px;
+      right: 9rem;
+      position: absolute;
+      padding: 11px 16px;
+}
+
+.navvbar h3 {
+      color: white;
+      text-align: left;
+      font-size: 2.7rem;
+      padding-bottom: 20px;
+}
+
+.navvbar p {
+      color: white;
+      padding: 2px;
+      font-size: 2.5rem;
+}
+
+.texts {
+      width: 21rem;
+      top: 32rem;
+      right: 10.5rem;
+      position: absolute;
+      padding: 4px 19px;
+      background-color: #e5e5e5;
+      border-radius: 20px;
+      box-shadow: #2196f3 8px 7px 3px;
+}
+
+.texts h3 {
+      color: black;
+      text-align: center;
+      font-size: 4.5rem;
+      padding: 1px;
+}
+
+
+/* About Us */
+.abt {
+      padding-top: 55rem;
+}
+
+.texts {
+      width: 21rem;
+      top: 32rem;
+      right: 10.5rem;
+      position: absolute;
+      padding: 4px 19px;
+      background-color: #e5e5e5;
+      border-radius: 20px;
+      box-shadow: #2196f3 8px 7px 3px;
+}
+
+.texts h3 {
+      color: black;
+      text-align: center;
+      font-size: 4.5rem;
+      padding: 1px;
+}
+
+.about {
+      background-size: 67%;
+      width: 124rem;
+      height: 134%;
+      background-color: #f1f1f1;
+      overflow: hidden;
+      padding: 4rem 0;
+}
+.inner-section {
+      width: 55%;
+      float: right;
+      background-color: #fdfdfd;
+      padding: 43px;
+      box-shadow: 10px 10px 8px rgb(0 0 0 / 30%);
+  }
+
+
+/* Features */
+
+/* Content */
+
+/* Button */
